@@ -4,7 +4,7 @@ var app = new Vue({
         msg1: 'はじめてのVue.js!',
         msg2: 'Vue.js'
     },
-    method: {
+    methods: {
         changeMsg1: function () {
             this.msg1 = 'こんにちはVue.js';
         }
