@@ -4,3 +4,5 @@ var app = new Vue({
         msg1: 'こんにちは'
     }
 });
+
+app.msg2 = 'さようなら';
