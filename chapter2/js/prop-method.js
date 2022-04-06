@@ -5,6 +5,7 @@ var app = new Vue({
     },
     computed: {
         dateProp: function () {
+            // var test = this.msg
             return new Date().toLocaleString();
         }
     },
