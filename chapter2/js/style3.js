@@ -3,13 +3,13 @@ var app = new Vue({
     data: {
         myStyle: {
             color: 'blue',
-            align: 'center',
-            size: '3em'
+            textAlign: 'center',
+            fontSize: '3em'
         }
     },
     methods: {
         setAlign: function (align) {
-            this.align = align;
+            this.myStyle.textAlign = align;
         }
     }
 });
