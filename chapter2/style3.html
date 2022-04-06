@@ -10,10 +10,12 @@
 
 <body>
     <div id="app">
-        <button @click="setAlign('left')">左寄せ</button>
-        <button @click="setAlign('center')">中央寄せ</button>
-        <button @click="setAlign('right')">右寄せ</button>
-        <p v-bind:style="myStyle">こんにちは</p>
+        <div>
+            <button @click="setAlign('left')">左寄せ</button>
+            <button @click="setAlign('center')">中央寄せ</button>
+            <button @click="setAlign('right')">右寄せ</button>
+            <p v-bind:style="myStyle">こんにちは</p>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="js/style3.js"></script>
