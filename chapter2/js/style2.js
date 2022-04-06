@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         color: 'blue',
         align: 'center',
-        size: '3'
+        size: '3em'
     },
     methods: {
         setAlign: function () {
