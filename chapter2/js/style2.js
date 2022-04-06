@@ -6,7 +6,7 @@ var app = new Vue({
         size: '3em'
     },
     methods: {
-        setAlign: function () {
+        setAlign: function (align) {
             this.align = align;
         }
     }
